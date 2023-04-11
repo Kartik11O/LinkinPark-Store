@@ -1,0 +1,147 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: #000000;
+    box-sizing:border-box;
+}
+
+#Page6_Main{
+    animation: body 3s both;
+}
+
+@keyframes body {
+    0%{
+        opacity: 0;
+    }
+    
+}
+
+
+
+#Page6{
+    position: relative;
+    width: clamp(300px,100%,100%);
+    height: clamp(400px,150vh,1130px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#container_Page6{
+    position: relative;
+    /* width: clamp(300px,100%,1980px); this doesn't center the div*/
+    width: clamp(300px,100%,100%);
+    height: clamp(400px,150vh,1130px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#nav-bar{
+    position: relative;
+    top: 0;
+    width: clamp(600px,100%,100%);
+    height: clamp(86px,12vh,86px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font);
+    color: #fff;
+    z-index: 99;
+}
+.box_1_nav{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box_1_nav a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 1rem;
+}
+.box_2_nav{
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    /* border: 2px solid red; */
+}
+.box_2_nav h2{
+    margin-bottom: auto;
+}
+.box_2_nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.box_3_nav{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box_3_nav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+/* Headline Code */
+#box_headline {
+    width: clamp(300px,40vw,614px);
+    height: clamp(170px,23vh,173px);
+    margin-top: 4rem;
+}
+#Shop_Headline{
+    font-family: var(--font);
+    font-size: 9rem;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
+
+/* Content_Box_1 */
+#Content_Box_1{
+    position: relative;
+    width: clamp(300px,90vw,1382px);
+    height: clamp(500px,99vh,714px);
+    display: flex;
+}
+
+.AllBoxs{
+    width: clamp(330px,50%,688px);
+    height: clamp(300px,665px,665px);
+    cursor: pointer;
+}
+/* Inside of boxs 1 */
+#Box_A{
+    background-image: url(https://cdn.shopify.com/s/files/1/2117/2713/products/LIP329A_SPRAYBOXWASHEDBLACKTEE_grande.png?v=1673465561);
+    background-position: center;
+    background-size: 76%;
+    background-repeat: no-repeat;
+}
+#Box_B{
+    background-image: url(https://m.media-amazon.com/images/M/MV5BOTdkZGEzYmUtODIxYi00MTUyLTgxM2QtMGYwODcxYjMyMTg0XkEyXkFqcGdeQXVyMjAzMjcxNTE@._V1_.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.AllBox_price{
+    position: absolute;
+    bottom: 0;
+    width: clamp(300px,100%,663px);
+    height: clamp(42px,3%,42px);
+    margin: 0;
+    color: #fff;
+    font-family: var(--font);
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.8rem;
+    cursor: pointer;
+}

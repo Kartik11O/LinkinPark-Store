@@ -1,0 +1,72 @@
+#Page6_Part4{
+    width: clamp(300px,100%,100%);
+    height: clamp(350px,40vh,301px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container_Page6-Part3{
+    width: clamp(1504px,90%,1504px);
+    height: clamp(330px,100%,301px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.T_box{
+    height: 100%;
+    width: 28%;
+    font-family: var(--font);
+    font-size: 5rem;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UnderLine{
+    border-bottom: 2px solid #fff;
+    margin: auto;
+}
+
+/* Footer */
+#First_footer{
+    width: clamp(300px,100%,100%);
+    height: clamp(250px,40vh,301px);
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+}
+.Foot1{
+    width: clamp(759px,50vw,759px);
+    height: clamp(250px,100%,301px);
+    /* border: 2px solid red;    */
+}
+.Foot1 h1{
+    font-weight: 100;
+    margin-left: 2rem;
+    font-size: 2rem;
+    border-bottom: 2px solid #3a3a3a;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#email{
+    border: none;
+}
+
+.Foot1 h1:nth-child(1){
+    width: clamp(100px,13vw,199px);
+}
+.Foot1 h1:nth-child(2){
+    width: clamp(100px,10vw,153px);
+}
+.Foot1 h1:nth-child(3){
+    width: clamp(100px,11vw,168px);
+}
+.Foot1 h1:nth-child(4){
+    width: clamp(100px,16vw,245px);
+}

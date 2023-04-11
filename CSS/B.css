@@ -1,0 +1,32 @@
+#Page6_Part2{
+    position: relative;
+    width: clamp(300px,100%,100%);
+    height: clamp(400px,120vh,904px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#container_Page6_Part-1{
+    position: relative;
+    width: clamp(300px,100%,1980px);
+    height: clamp(400px,120vh,904px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+/* Inside of boxs 1 */
+#Box_1{
+    background-image: url(https://d1ebxi7lthqj9n.cloudfront.net/galleries/gallery-3/unrlsedphotos_01.jpeg);
+    background-position: center;
+    background-size: 76%;
+    background-repeat: no-repeat;
+}
+#Box_2{
+    background-image: url(https://cdn.shopify.com/s/files/1/2117/2713/products/LIP332B_METEORAWALLARTBLACKLONGSLEEVE_grande.png?v=1673465632);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

@@ -1,0 +1,32 @@
+#Page6_Part3{
+    position: relative;
+    width: clamp(300px,100%,100%);
+    height: clamp(400px,110vh,828px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#container_Page6_Part-2{
+    position: relative;
+    width: clamp(300px,100%,1980px);
+    height: clamp(400px,110vh,828px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+/* Inside of boxs 1 */
+#Box_I{
+    background-image: url(Wallpaper/P1.jpg);
+    background-position: center;
+    background-size: 95%;
+    background-repeat: no-repeat;
+}
+#Box_II{
+    background-image: url(Wallpaper/P2.png);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
