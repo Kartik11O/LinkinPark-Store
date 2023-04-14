@@ -5,7 +5,6 @@ function Open_Close(){
 
    if(NavPhone.style.display == "none"){
     NavPhone.style.display = "block"
-    Page6_Main.style.display = "none"
    }
 
    else{
@@ -14,3 +13,10 @@ function Open_Close(){
    }
 
 }
+
+window.addEventListener("DOMContentLoaded" , ()=>{
+   
+   NavPhone.style.display = "none"
+
+
+})

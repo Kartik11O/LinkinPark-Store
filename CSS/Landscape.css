@@ -1,0 +1,37 @@
+@media all and (max-device-width: 1200px) and (orientation: landscape){
+
+    html{
+        font-size: 50%;
+    }
+
+    #Box_B {
+        background-size: contain;
+    }
+
+    #Box_2 {
+        background-size: contain;
+    }
+
+    .AllBoxs {
+        height: clamp(266px,71vh,266px);
+    }
+
+    #Content_Box_1 {
+        height: clamp(300px,99vh,714px);
+    }
+
+    .AllBox_price { 
+        width: clamp(300px,50%,300px);
+    }
+
+    #container_Page6-Part3 {
+        justify-content: space-around;
+    }
+
+    #container_Page6 {
+        height: clamp(514px,137vh,514px);
+    }
+    #Page6 {
+    justify-content: start;
+}
+}
